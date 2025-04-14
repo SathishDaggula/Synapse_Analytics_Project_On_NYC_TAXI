@@ -70,3 +70,29 @@ Key goals:
      │ Power BI                      │
      │ - Dashboards & KPIs          │
      └───────────────────────────────┘
+📁 NYC-Taxi-Synapse-Project/
+├── data/
+│   ├── raw/                         # Raw taxi data files
+│   └── curated/                     # Transformed datasets for reporting
+├── notebooks/
+│   ├── spark/                       # PySpark notebooks for data cleaning & ETL
+├── sql/
+│   ├── serverless/                  # SQL scripts for Serverless Pool
+│   ├── dedicated/                   # Scripts for Dedicated Pool loading & modeling
+├── pipelines/
+│   └── json/                        # Pipeline definitions (for Synapse Studio import)
+├── reports/
+│   └── powerbi/                     # PBIX files, screenshots, sample exports
+└── README.md
+
+This project reflects real-world cloud engineering experience, not just theory:
+
+✅ Uses enterprise-scale tools and pipelines.
+
+✅ Built for scalability, performance, and reporting.
+
+✅ Shows cross-service integration (Spark + SQL + Cosmos + Power BI).
+
+✅ Includes workflow automation, optimization, and reporting in a unified stack.
+
+✅ Built for a portfolio showcase and real job readiness.
